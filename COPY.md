@@ -12,22 +12,26 @@ PAST PROJECTS
 - machine learning in VR
 - other VR
 - miraweb
-- artist collab
+- artist collab (hannah sawtell and nancy)
 - wikisonnet
-- dumb stuff
+- dumb stuff 
 - flume
+- skatroom
+- other art hack day thing
 
 TALKS & WORKSHOPS
 - Software for Artists Day, December 2015
 - MVR, March 2016
-- Alt-AI, May 2016
-- week class at pioneer works teaching girls about art and code, pioneer works, July 2016
+- Alt-AI, May 2016 (have video)
+- week class at pioneer works teaching girls about art and code, pioneer works, July 2016 (have article & pictures)
 - Creative Coding in p5.js at Pioneer Works, August 2016
 - Code Art Miami, March 2017
 - Codeland Workshop, April 2017
 - CCFest Workshop, April 2017 and September 2017
 - Art Hack Day, January 2015 and October 2016
+- Processing Community Day, September 2017 (have video)
 - various meetups, such as Web Audio, Hackaday, etc. 
+- ITP Camp
 
 CV STUFF
 - BSEE (Bachelor of Science in Electrical Engineering) from Johns Hopkins, 2012

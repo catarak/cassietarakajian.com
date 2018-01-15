@@ -9,11 +9,11 @@ const Menu = () => (
     </h1>
     <ul className={styles.items}>
       <li className={styles.item}>
-        <Link to="/projects">Current Projects</Link>
+        <Link to="/current-projects">Current Projects</Link>
       </li>
       <span>/</span>
       <li className={styles.item}>
-        <Link to="/gallery">Past Projects</Link>
+        <Link to="/past-projects">Past Projects</Link>
       </li>
       <span>/</span>
       <li className={styles.item}>

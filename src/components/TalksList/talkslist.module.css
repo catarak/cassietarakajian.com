@@ -1,0 +1,17 @@
+.talks {
+  margin: 0;
+}
+
+
+.talk {
+  display: flex;
+  height: 250px;
+  max-width: 900px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.talk img {
+  height: 200px;
+  width: auto;
+}

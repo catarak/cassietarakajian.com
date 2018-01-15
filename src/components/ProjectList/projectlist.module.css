@@ -1,0 +1,36 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 50px;
+}
+
+.item {
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+
+.item img {
+  height: 400px;
+  width: auto;
+}
+
+.item div {
+  flex: 1;
+  padding: 40px;
+  max-width: 720px;
+}
+
+.item:nth-child(even) div {
+  order: -1;
+  text-align: right;
+}
+
+.item:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.separator {
+  margin: 0 10px;
+}
