@@ -9,6 +9,8 @@ import dividend from '../../assets/dividend.png'
 import mansplain from '../../assets/mansplain.png'
 import skatroom from '../../assets/skatroom.jpg'
 import holdr from '../../assets/holdr1.png'
+import corporate from '../../assets/corporate.jpg'
+import soylent from '../../assets/soylentForWomen.jpg'
 import styles from './projectlist.module.css'
 
 const AllProjectList = () => (
@@ -182,11 +184,25 @@ const AllProjectList = () => (
         </p>
       </div>
     </li>
-    <li>
-      Other hack day thing
+    <li className={styles.item}>
+      <img src={corporate} />
+      <div>
+        <h2>Corporate Synergy</h2>
+        <p>
+          An algorithmic performance in which audience members can participate though it is unclear
+          how their actions affect the piece. The performance itself is under a license called Crowd
+          Heading, in which the FANG corporations own the work. For Art Hack Day, Per Capita, September 2016.
+        </p>
+      </div>
     </li>
-    <li>
-      Soylent for Women
+    <li className={styles.item}>
+      <img src={soylent} />
+      <div>
+        <h2>Soylent for Women</h2>
+        <p>
+          It's pink and it's twice the price. 
+        </p>
+      </div>
     </li>
   </ul>
 )
