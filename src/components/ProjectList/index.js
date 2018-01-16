@@ -1,6 +1,6 @@
 import React from 'react'
-import cycling from '../../assets/cycling74.jpg'
-import gl from '../../assets/GL_Logo.png'
+import cycling from '../../assets/cycling.jpg'
+import gl from '../../assets/gl2.png'
 import p5 from '../../assets/p5js.png'
 import lullabies from '../../assets/lullabiesforai.jpg'
 
