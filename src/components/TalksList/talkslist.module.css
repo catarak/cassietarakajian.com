@@ -17,7 +17,6 @@
 }
 
 .talk img {
-  height: 250px;
   width: auto;
   order: -1;
 }
@@ -29,32 +28,33 @@
   /*max-width: 720px;*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .talk div {
     padding: 0 40px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .talk img {
     order: 0;
+    height: 250px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .talk:nth-child(odd) div {
     order: 2;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .talk:nth-child(even) {
     justify-content: flex-end;
     text-align: right;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .talk {
     flex-direction: row;
     height: 250px;

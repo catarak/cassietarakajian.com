@@ -15,7 +15,7 @@ a:hover {
   color: #F1C6A4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body {
     font-size: 16px;
   }
