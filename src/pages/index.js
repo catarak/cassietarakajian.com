@@ -23,6 +23,8 @@ const IndexPage = () => (
         <a href="https://twitter.com/hellothisiscass" target="_blank">Twitter</a>
         <span style={{margin: '0 10px'}}>/</span>
         <a href="https://github.com/catarak" target="_blank">Github</a>
+        <span style={{margin: '0 10px'}}>/</span>
+        <a href="mailto:ctarakajian@gmail.com" target="_blank">Email</a>
       </p>
     </div>
   </div>
