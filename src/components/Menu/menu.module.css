@@ -5,12 +5,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
 }
 
 @media (min-width: 769px) {
   .nav {
     padding: 50px;
     flex-direction: row;
+    position: static;
   }
 }
 

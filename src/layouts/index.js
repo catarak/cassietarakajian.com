@@ -32,6 +32,7 @@ const TemplateWrapper = ({ children }) => (
       style={{
         margin: '0 auto',
       }}
+      className="container"
     >
       <Menu />
       {children()}
