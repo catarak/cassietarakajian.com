@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import portrait from '../assets/me.jpeg'
+import styles from './home.module.css'
 
 const IndexPage = () => (
   <div
@@ -10,15 +11,20 @@ const IndexPage = () => (
   >
     <div
       style={{
-        background: `url(${portrait}) center center no-repeat`,
-        backgroundSize: '100% auto',
-        backgroundPosition: '50% 35%',
-        width: '100%',
-        height: '500px'
+        backgroundImage: `url(${portrait})`
       }} 
+      className={styles.portrait}
     >
     </div>
-    <p style={{padding: '50px'}}>software and hardware, creative technologist, musician, milennial, leo</p>
+    <img className={styles.mobilePortrait} src={portrait} />
+    <div className={styles.info}>
+      <p>software and hardware, creative technologist, musician, milennial, leo</p>
+      <p>
+        <a href="https://twitter.com/hellothisiscass" target="_blank">Twitter</a>
+        <span style={{margin: '0 10px'}}>/</span>
+        <a href="https://github.com/catarak" target="_blank">Github</a>
+      </p>
+    </div>
   </div>
 )
 

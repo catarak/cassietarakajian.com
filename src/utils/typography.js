@@ -1,7 +1,7 @@
 import Typography from "typography";
 
 const typography = new Typography({
-  baseFontSize: "16px",
+  baseFontSize: "12px",
   googleFonts: [{
     name: "Roboto Mono",
     styles: ['400']

@@ -7,6 +7,8 @@ import syria from '../../assets/syria.png'
 import flume from '../../assets/flume1.png'
 import dividend from '../../assets/dividend.png'
 import mansplain from '../../assets/mansplain.png'
+import skatroom from '../../assets/skatroom.jpg'
+import holdr from '../../assets/holdr1.png'
 import styles from './projectlist.module.css'
 
 const AllProjectList = () => (
@@ -19,8 +21,7 @@ const AllProjectList = () => (
         <h2>Visualizing Neural Networks in Virtual Space</h2>
         <p>
           As a resident at DBRS Innovation Labs, I worked on a Virtual Reality
-          experience to explain one approach to machine learning. Mathematical
-          descriptions of neural networks are precise but abstract. I wanted
+          experience to explain one approach to machine learning. I wanted
           to give a picture of its internal workings, so that visitors could walk
           away with an intuitive understanding of how learning networks operate.
         </p>
@@ -30,13 +31,13 @@ const AllProjectList = () => (
           with their hands, tracked by a Leap Motion sensor, and watch the algorithm
           analyze their writing in real time. Users can view the neural network from
           different angles and change the view to see all of the network's layers
-          at once or zoom in on a specific layer.
+          at once.
         </p>
         <p>
           <a href="https://vimeo.com/176877062" target="_blank">
             Demo Video
           </a>
-          <span>/</span>
+          <span className={styles.separator}>/</span>
           <a href="https://vimeo.com/181211762" target="_blank">
             Artist Talk
           </a>
@@ -161,6 +162,31 @@ const AllProjectList = () => (
           Currently not working at <a href="http://mansplainitto.me" target="_blank">mansplainitto.me</a>.
         </p>
       </div>
+    </li>
+    <li className={styles.item}>
+      <a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank">
+        <img src={holdr} />
+      </a>
+      <div>
+        <h2>Holdr</h2>
+        <p>An app that tells you whether or not you are holding your phone.</p>
+      </div>
+    </li>
+    <li className={styles.item}>
+      <img src={skatroom} />
+      <div>
+        <h2>Skatroom</h2>
+        <p>
+          A web enabled bathroom experience. Talk to other people on their phones in the
+          bathroom in an online chatroom. For Art Hack Day, Deluge, January 2015.
+        </p>
+      </div>
+    </li>
+    <li>
+      Other hack day thing
+    </li>
+    <li>
+      Soylent for Women
     </li>
   </ul>
 )

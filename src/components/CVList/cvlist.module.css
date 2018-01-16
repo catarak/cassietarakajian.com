@@ -1,0 +1,10 @@
+.items {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.item {
+  margin-bottom: 40px;
+}
+

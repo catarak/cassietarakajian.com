@@ -86,12 +86,6 @@ const TalksList = () => (
         <p>Hanging out in the Metaverse. A talk about the history of virtual reality.</p>
       </div>
     </li>
-    <li className={styles.talk}>
-      <div>
-        <h2>Various Meetups</h2>
-        <p>Web Audio Meetup, Hackaday Meetup</p>
-      </div>
-    </li>
   </ul>
 )
 

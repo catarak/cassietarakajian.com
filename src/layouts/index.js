@@ -17,7 +17,6 @@ style={{
 const TemplateWrapper = ({ children }) => (
   <div
     style={{
-      backgroundColor: 'black',
       color: 'white',
       height: '100%'
     }}
