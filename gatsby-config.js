@@ -10,6 +10,5 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography.js',
       },
     },
-  ],
-  pathPrefix: '/cassietarakajian.com'
+  ]
 };
