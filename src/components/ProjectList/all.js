@@ -3,7 +3,6 @@ import aiml from '../../assets/viz1.gif'
 import wikisonnet from '../../assets/wikisonnet_still.png'
 import miraweb from '../../assets/mira2.jpg'
 import vr from '../../assets/vr.png'
-import syria from '../../assets/syria.png'
 import flume from '../../assets/flume1.png'
 import dividend from '../../assets/dividend.png'
 import mansplain from '../../assets/mansplain.png'
@@ -12,9 +11,26 @@ import holdr from '../../assets/holdr1.png'
 import corporate from '../../assets/corporate.jpg'
 import soylent from '../../assets/soylentForWomen.jpg'
 import styles from './projectlist.module.css'
+import gl from '../../assets/gl2.png'
+import lullabies from '../../assets/lullabiesforai.jpg'
 
 const AllProjectList = () => (
   <ul className={styles.items}>
+    <li className={styles.item}>
+      <a href="http://girlfriends.site" target="_blank">
+        <img src={gl} />
+      </a>
+      <div>
+        <h2>
+          Cofounder, Girlfriends Labs
+        </h2>
+        <p>
+          Girlfriends Labs is a creative agency that specializes
+          in websites, apps, installations and emerging techniques.
+          We build tools to problem solve and create seamless experiences.
+        </p>
+      </div>
+    </li>
     <li className={styles.item}>
       <a href="https://medium.com/dbrs-innovation-labs/visualizing-neural-networks-in-virtual-space-7e3f62f7177" target="_blank">
         <img src={aiml} />
@@ -66,6 +82,26 @@ const AllProjectList = () => (
         </p>
       </div>
     </li>
+        <li className={styles.item}>
+      <a href="https://twitter.com/lullabiesforai" target="_blank">
+        <img src={lullabies} />
+      </a>
+      <div>
+        <h2>
+          Band member, Lullabies for AI
+        </h2>
+        <p>
+          Lullabies for AI is a musical project by three weirdos
+          (Amelia Winger-Bearskin, Cassie Tarakajian and Eamon O'Connor)
+          who worked together at an applied AI lab on Wall Street before
+          realizing they should just be a band. 
+        </p>
+        <p>
+          They create music to soothe and educate our future AI overlords
+          who need some psychic chill as much as the next neural net.
+        </p>
+      </div>
+    </li>
     <li className={styles.item}>
       <a href="https://github.com/Cycling74/miraweb" target="_blank">
         <img src={miraweb} />
@@ -112,22 +148,6 @@ const AllProjectList = () => (
           track to accompany an instrumental loop of the chorus. We created a
           clean and responsive user experience which&nbsp;
           <a href="https://twitter.com/flumemusic/status/740956765500510208" target="_blank">Flume himself also enjoyed</a>.
-        </p>
-      </div>
-    </li>
-    <li className={styles.item}>
-      <a href="https://vimeo.com/149468982" target="_blank">
-        <img src={syria} />
-      </a>
-      <div>
-        <h2>The Syrian Journey, VR Experience</h2>
-        <p>
-          A virtual reality experience created in Unity for Google Cardboard.
-          It follows the journey from the first-person perspective of a Syrian
-          refugee, traveling on an inflatable plastic boat from Turkey to Greece.
-          Before the boat reaches Greece, however, they encounter a Greek boat.
-          This is the recreation of a real life experience, which can be found&nbsp;
-          <a href="https://www.facebook.com/NowThisNews/videos/947886341968157/?pnref=story" target="_blank">here</a>.
         </p>
       </div>
     </li>

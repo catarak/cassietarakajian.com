@@ -1,28 +1,12 @@
 import React from 'react'
 import cycling from '../../assets/cycling.jpg'
-import gl from '../../assets/gl2.png'
 import p5 from '../../assets/p5js.png'
-import lullabies from '../../assets/lullabiesforai.jpg'
+import itp from '../../assets/itp.png'
 
 import styles from './projectlist.module.css'
 
 const ProjectList = () => (
   <ul className={styles.items}>
-    <li className={styles.item}>
-      <a href="http://girlfriends.site" target="_blank">
-        <img src={gl} />
-      </a>
-      <div>
-        <h2>
-          Cofounder, Girlfriends Labs
-        </h2>
-        <p>
-          Girlfriends Labs is a creative agency that specializes
-          in websites, apps, installations and emerging techniques.
-          We build tools to problem solve and create seamless experiences.
-        </p>
-      </div>
-    </li>
     <li className={styles.item}>
       <a href="https://cycling74.com/" target="_blank">
         <img src={cycling} />
@@ -46,12 +30,12 @@ const ProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://alpha.editor.p5js.org" target="_blank">
+      <a href="https://editor.p5js.org" target="_blank">
         <img src={p5} />
       </a>
       <div>
         <h2>
-          Lead Developer, p5.js web editor
+          Creator and Lead Maintainer, p5.js Web Editor
         </h2>
         <p>
           p5.js is an creative coding library for making interactive and
@@ -65,22 +49,24 @@ const ProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://twitter.com/lullabiesforai" target="_blank">
-        <img src={lullabies} />
+      <a href="https://tisch.nyu.edu/itp" target="_blank">
+        <img src={itp} />
       </a>
       <div>
         <h2>
-          Band member, Lullabies for AI
+          Adjunct Professor, NYU ITP
         </h2>
         <p>
-          Lullabies for AI is a musical project by three weirdos
-          (Amelia Winger-Bearskin, Cassie Tarakajian and Eamon O'Connor)
-          who worked together at an applied AI lab on Wall Street before
-          realizing they should just be a band. 
+          ITP is a two-year graduate program located in the Tisch School of
+          the Arts whose mission is to explore the imaginative use of
+          communications technologies—how they might augment, improve, and
+          bring delight and art into people's lives.
         </p>
         <p>
-          They create music to soothe and educate our future AI overlords
-          who need some psychic chill as much as the next neural net.
+          Currently teaching&nbsp;
+          <a href="https://github.com/ITPNYU/ICM-2018" target="_blank">
+            Introduction to Computational Media
+          </a>.
         </p>
       </div>
     </li>

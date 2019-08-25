@@ -9,19 +9,15 @@ const Menu = () => (
     </h1>
     <ul className={styles.items}>
       <li className={styles.item}>
-        <Link to="/current-projects">Current Projects</Link>
+        <Link to="/current-projects">Current</Link>
       </li>
       <span className={styles.separator}>/</span>
       <li className={styles.item}>
-        <Link to="/past-projects">Past Projects</Link>
+        <Link to="/past-projects">Past</Link>
       </li>
       <span className={styles.separator}>/</span>
       <li className={styles.item}>
         <Link to="/talks">Workshops and Talks</Link>
-      </li>
-      <span className={styles.separator}>/</span>
-      <li className={styles.item}>
-        <Link to="/cv">CV</Link>
       </li>
     </ul>
   </nav>

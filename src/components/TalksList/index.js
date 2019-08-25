@@ -3,10 +3,21 @@ import ccfest from '../../assets/ccfest.jpg'
 import pcd from '../../assets/pcd.png'
 import miami from '../../assets/miami.jpg'
 import itpcamp from '../../assets/itpcamp.jpg'
+import ddc from '../../assets/ddc.jpg'
 import styles from './talkslist.module.css'
 
 const TalksList = () => (
   <ul className={styles.talks}>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://github.com/catarak/eyebeam-intro-to-max" target="_blank">Eyebeam Digital Day Camp</a>
+        </h2>
+        <h3>Summer 2019</h3>
+        <p>Introduction to creating digital instruments in Max/MSP</p>
+      </div>
+      <img src={ddc} />
+    </li>
     <li className={styles.talk}>
       <div>
         <h2>
