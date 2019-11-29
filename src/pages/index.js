@@ -18,7 +18,7 @@ const IndexPage = () => (
     </div>
     <img className={styles.mobilePortrait} src={portrait} />
     <div className={styles.info}>
-      <p>software and hardware, creative technologist, musician, leo</p>
+      <p>software and hardware, creative technologist, musician, educator, big leo energy</p>
       <p>
         <a href="https://twitter.com/hellothisiscass" target="_blank">Twitter</a>
         <span style={{margin: '0 10px'}}>/</span>

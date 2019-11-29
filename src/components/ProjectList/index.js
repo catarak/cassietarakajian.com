@@ -13,20 +13,29 @@ const ProjectList = () => (
       </a>
       <div>
         <h2>
-          Engineering, Cycling '74
+          Engineering, <a href="https://cycling74.com/" target="_blank">Cycling '74</a>
         </h2>
         <p>
           Cycling '74 makes tools for sound, graphics, and interactivity.
           Max/MSP is an indispensable tool for creating interactive,
           audio/visual applications. 
         </p>
-        <p>
-          Projects include&nbsp;
-            <a href="https://github.com/Cycling74/miraweb" target="_blank">
-              MiraWeb and Xebra.js
-            </a>
-          , a tool for multimedia artists to control Max/MSP while performing.
-        </p>
+        <h3>Projects:</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/Cycling74/miraweb" target="_blank">
+                Mira Web and Xebra.js
+              </a>
+            , a tool for multimedia artists to control Max/MSP while performing.
+            </li>
+          <li>
+            <a href="https://cycling74.com/articles/node-for-max-intro-%E2%80%93-let%E2%80%99s-get-started" target="_blank">
+              Node For Max
+              </a>
+            , which adds the flexibility and power of Node to Max/MSP. Also created examples, tutorials, and workshops
+            for this package.
+            </li>
+          </ul>
       </div>
     </li>
     <li className={styles.item}>
@@ -35,16 +44,21 @@ const ProjectList = () => (
       </a>
       <div>
         <h2>
-          Creator and Lead Maintainer, p5.js Web Editor
+          Creator and Lead Maintainer, <a href="https://editor.p5js.org" target="_blank">p5.js Web Editor</a>
         </h2>
         <p>
-          p5.js is an creative coding library for making interactive and
-          generative visuals and sounds. As part of their ongoing effort
+          <a href="https://p5js.org/" target="_blank">p5.js</a> is a creative coding library for making interactive and
+          generative visuals and sounds. As part of the ongoing effort
           to bring programming to a wider and more diverse audience, the
-          Processing Foundation and NYU ITP wanted to create a p5.js editor
-          for the web. Goals for the project include making a beginner
-          friendly environment, creating a tool for teaching, and making
-          web accessibility a priority. It is an open source project.
+          Processing Foundation wanted to create a p5.js editor for the web.
+          Goals for the project include making a beginner friendly environment,
+          creating a tool for teaching, and making web accessibility a priority. 
+          It is an open source project.
+        </p>
+        <p>
+          <a href="https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf" target="_blank">Announcement Post</a>
+          {" / "}
+          <a href="https://www.youtube.com/watch?v=MZKKA7ynIxQ" target="_blank">Talk</a>
         </p>
       </div>
     </li>
@@ -62,11 +76,20 @@ const ProjectList = () => (
           communications technologies—how they might augment, improve, and
           bring delight and art into people's lives.
         </p>
+        <h3>Courses:</h3>
         <p>
-          Currently teaching&nbsp;
-          <a href="https://github.com/ITPNYU/ICM-2018" target="_blank">
-            Introduction to Computational Media
-          </a>.
+          <ul>
+            <li>
+              <a href="https://github.com/ITPNYU/ICM-2018" target="_blank">Introduction to Computational Media</a>, Fall 2018
+            </li>
+            <li>
+              Introduction to Computational Media, <a href="https://github.com/ITPNYU/ICM-2019-Code" target="_blank">Code</a> / 
+              <a href="https://github.com/ITPNYU/ICM-2019-Media" target="_blank">Media</a>, Fall 2019
+            </li>
+            <li>
+              <a href="https://github.com/itp-dwd/2020-spring" target="_blank">Dynamic Web Development</a>, Spring 2020 [WIP Curriculum]
+            </li>
+          </ul>
         </p>
       </div>
     </li>

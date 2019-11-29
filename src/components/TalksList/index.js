@@ -14,7 +14,17 @@ const TalksList = () => (
           <a href="https://github.com/catarak/eyebeam-intro-to-max" target="_blank">Eyebeam Digital Day Camp</a>
         </h2>
         <h3>Summer 2019</h3>
-        <p>Introduction to creating digital instruments in Max/MSP</p>
+        <p>Creating Digital Instruments in Max/MSP</p>
+      </div>
+      <img src={ddc} />
+    </li>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://github.com/catarak/intro-n4m-workshop" target="_blank">Expo '74 2019</a>
+        </h2>
+        <h3>Spring 2019</h3>
+        <p>Getting Started with Node For Max</p>
       </div>
       <img src={ddc} />
     </li>
@@ -24,7 +34,7 @@ const TalksList = () => (
           <a href="https://day.processing.org/" target="_blank">Processing Community Day</a>
         </h2>
         <h3>Fall 2017</h3>
-        <p>Tech talk on the p5.js web editor</p>
+        <p>A p5.js Web Editor for all</p>
         <p><a href="https://www.youtube.com/watch?v=MZKKA7ynIxQ" target="_blank">Video</a></p>
       </div>
       <img src={pcd} />
@@ -59,11 +69,20 @@ const TalksList = () => (
     </li>
     <li className={styles.talk}>
       <div>
+        <h2>Software Sketchbook in p5.js, Workshop</h2>
+        <h3>August 2016</h3>
+        <p>
+          A weekend workshop class introduction to programming in p5.js. In collaboration with Emily Xie.
+        </p>
+      </div>
+    </li>
+    <li className={styles.talk}>
+      <div>
         <h2><a href="https://pioneerworks.org/programs/art-x-code/" target="_blank">Art x Code</a>, Workshop</h2>
         <h3>July 2016</h3>
         <p>
           A week long class teaching teenage girls about art and code. We taught them
-          how to make games in Scratch, intoduced them to 3D and Unity, and introduced
+          how to make games in Scratch, introduced them to 3D and Unity, and introduced
           them to virtual reality and Tilt Brush. In collaboration with Pioneer Works
           and Made with Code - Google.
         </p>

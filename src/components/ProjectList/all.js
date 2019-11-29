@@ -22,7 +22,7 @@ const AllProjectList = () => (
       </a>
       <div>
         <h2>
-          Cofounder, Girlfriends Labs
+          Cofounder, <a href="http://girlfriends.site" target="_blank">Girlfriends Labs</a>
         </h2>
         <p>
           Girlfriends Labs is a creative agency that specializes
@@ -63,7 +63,7 @@ const AllProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="wikison.net" target="_blank">
+      <a href="http://wikison.net" target="_blank">
         <img src={wikisonnet} />
       </a>
       <div>
@@ -79,6 +79,14 @@ const AllProjectList = () => (
           <a href="https://twitter.com/wikisonnet" target="_blank">
             Twitter Bot
           </a>
+          <span className={styles.separator}>/</span>
+          <a href="https://vimeo.com/151667460" target="_blank">
+            Demo Video
+          </a>
+          <span className={styles.separator}>/</span>
+          <a href="https://observer.com/2016/11/wikisonnet" target="_blank">
+            Press
+          </a>
         </p>
       </div>
     </li>
@@ -88,7 +96,7 @@ const AllProjectList = () => (
       </a>
       <div>
         <h2>
-          Band member, Lullabies for AI
+          Band member, <a href="https://twitter.com/lullabiesforai" target="_blank">Lullabies for AI</a>
         </h2>
         <p>
           Lullabies for AI is a musical project by three weirdos
@@ -107,7 +115,7 @@ const AllProjectList = () => (
         <img src={miraweb} />
       </a>
       <div>
-        <h2>Miraweb and Xebra.js, Contributor</h2>
+        <h2><a href="https://github.com/Cycling74/miraweb" target="_blank">Miraweb and Xebra.js</a>, Contributor</h2>
         <p>
           Miraweb provides a responsive, websocket-based portal into your Max/MSP patch
           from any compatible browser. Xebra.js is a JavaScript client library for
@@ -121,7 +129,7 @@ const AllProjectList = () => (
         <img src={vr} />
       </a>
       <div>
-        <h2>Without Colors, VR Experience</h2>
+        <h2><a href="https://vimeo.com/153171285" target="_blank">Without Colors</a>, VR Experience</h2>
         <p>
           "Without Colors" is inspired by the Italo Calvino short story of the same name.
           In this experience, the player is placed on the Earth before the atmosphere
@@ -138,12 +146,11 @@ const AllProjectList = () => (
         <img src={flume} />
       </a>
       <div>
-        <h2>Flume Soundboard for Skin</h2>
+        <h2><a href="http://skin.flu.me" target="_blank">Flume Soundboard for Skin</a></h2>
         <p>
           For the release of Flume’s latest album Skin, I built&nbsp;
           <a href="http://skin.flu.me" target="_blank">skin.flu.me</a>, an
-          interactive soundboard, in collaboration with&nbsp;
-          <a href="http://sethkranzler.com/" target="_blank">Seth Kranzler</a>.
+          interactive soundboard, in collaboration with Seth Kranzler.
           Visitors recreate "Never Be Like You" by triggering samples from the
           track to accompany an instrumental loop of the chorus. We created a
           clean and responsive user experience which&nbsp;
@@ -178,9 +185,9 @@ const AllProjectList = () => (
         <img src={mansplain} />
       </a>
       <div>
-        <h2>Mansplain it to me</h2>
+        <h2><a href="https://vimeo.com/154739661" target="_blank">Mansplain it to me</a></h2>
         <p>
-          Mainsplain it to me is a web application that will answer a question in a condescening manner to you.
+          Mainsplain it to me is a web application that will answer a question in a condescending manner to you.
           Currently not working at <a href="http://mansplainitto.me" target="_blank">mansplainitto.me</a>.
         </p>
       </div>
@@ -190,7 +197,7 @@ const AllProjectList = () => (
         <img src={holdr} />
       </a>
       <div>
-        <h2>Holdr</h2>
+        <h2><a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank">Holdr</a></h2>
         <p>An app that tells you whether or not you are holding your phone.</p>
       </div>
     </li>
@@ -209,7 +216,7 @@ const AllProjectList = () => (
       <div>
         <h2>Corporate Synergy</h2>
         <p>
-          An algorithmic performance in which audience members can participate though it is unclear
+          An algorithmic performance in with interactive audience participation, though it is unclear
           how their actions affect the piece. The performance itself is under a license called Crowd
           Heading, in which the FANG corporations own the work. For Art Hack Day, Per Capita, September 2016.
         </p>
