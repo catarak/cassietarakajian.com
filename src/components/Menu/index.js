@@ -1,5 +1,5 @@
 import React from 'React'
-import Link from 'gatsby-link'
+import { Link }  from 'gatsby'
 import styles from './menu.module.css'
 
 const Menu = () => (

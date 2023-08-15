@@ -17,12 +17,12 @@ import lullabies from '../../assets/lullabiesforai.jpg'
 const AllProjectList = () => (
   <ul className={styles.items}>
     <li className={styles.item}>
-      <a href="http://girlfriends.site" target="_blank">
+      <a href="http://girlfriends.site" target="_blank" rel="noreferrer">
         <img src={gl} />
       </a>
       <div>
         <h2>
-          Cofounder, <a href="http://girlfriends.site" target="_blank">Girlfriends Labs</a>
+          Cofounder, <a href="http://girlfriends.site" target="_blank" rel="noreferrer">Girlfriends Labs</a>
         </h2>
         <p>
           Girlfriends Labs is a creative agency that specializes
@@ -32,7 +32,7 @@ const AllProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://medium.com/dbrs-innovation-labs/visualizing-neural-networks-in-virtual-space-7e3f62f7177" target="_blank">
+      <a href="https://medium.com/dbrs-innovation-labs/visualizing-neural-networks-in-virtual-space-7e3f62f7177" target="_blank" rel="noreferrer">
         <img src={aiml} />
       </a>
       <div>
@@ -52,18 +52,18 @@ const AllProjectList = () => (
           at once.
         </p>
         <p>
-          <a href="https://vimeo.com/176877062" target="_blank">
+          <a href="https://vimeo.com/176877062" target="_blank" rel="noreferrer">
             Demo Video
           </a>
           <span className={styles.separator}>/</span>
-          <a href="https://vimeo.com/181211762" target="_blank">
+          <a href="https://vimeo.com/181211762" target="_blank" rel="noreferrer">
             Artist Talk
           </a>
         </p>
       </div>
     </li>
     <li className={styles.item}>
-      <a href="http://wikison.net" target="_blank">
+      <a href="http://wikison.net" target="_blank" rel="noreferrer">
         <img src={wikisonnet} />
       </a>
       <div>
@@ -76,27 +76,27 @@ const AllProjectList = () => (
           sonnets.
         </p>
         <p>
-          <a href="https://twitter.com/wikisonnet" target="_blank">
+          <a href="https://twitter.com/wikisonnet" target="_blank" rel="noreferrer">
             Twitter Bot
           </a>
           <span className={styles.separator}>/</span>
-          <a href="https://vimeo.com/151667460" target="_blank">
+          <a href="https://vimeo.com/151667460" target="_blank" rel="noreferrer">
             Demo Video
           </a>
           <span className={styles.separator}>/</span>
-          <a href="https://observer.com/2016/11/wikisonnet" target="_blank">
+          <a href="https://observer.com/2016/11/wikisonnet" target="_blank" rel="noreferrer">
             Press
           </a>
         </p>
       </div>
     </li>
         <li className={styles.item}>
-      <a href="https://twitter.com/lullabiesforai" target="_blank">
+      <a href="https://twitter.com/lullabiesforai" target="_blank" rel="noreferrer">
         <img src={lullabies} />
       </a>
       <div>
         <h2>
-          Band member, <a href="https://twitter.com/lullabiesforai" target="_blank">Lullabies for AI</a>
+          Band member, <a href="https://twitter.com/lullabiesforai" target="_blank" rel="noreferrer">Lullabies for AI</a>
         </h2>
         <p>
           Lullabies for AI is a musical project by three weirdos
@@ -111,11 +111,11 @@ const AllProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://github.com/Cycling74/miraweb" target="_blank">
+      <a href="https://github.com/Cycling74/miraweb" target="_blank" rel="noreferrer">
         <img src={miraweb} />
       </a>
       <div>
-        <h2><a href="https://github.com/Cycling74/miraweb" target="_blank">Miraweb and Xebra.js</a>, Contributor</h2>
+        <h2><a href="https://github.com/Cycling74/miraweb" target="_blank" rel="noreferrer">Miraweb and Xebra.js</a>, Contributor</h2>
         <p>
           Miraweb provides a responsive, websocket-based portal into your Max/MSP patch
           from any compatible browser. Xebra.js is a JavaScript client library for
@@ -125,11 +125,11 @@ const AllProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://vimeo.com/153171285" target="_blank">
+      <a href="https://vimeo.com/153171285" target="_blank" rel="noreferrer">
         <img src={vr} />
       </a>
       <div>
-        <h2><a href="https://vimeo.com/153171285" target="_blank">Without Colors</a>, VR Experience</h2>
+        <h2><a href="https://vimeo.com/153171285" target="_blank" rel="noreferrer">Without Colors</a>, VR Experience</h2>
         <p>
           "Without Colors" is inspired by the Italo Calvino short story of the same name.
           In this experience, the player is placed on the Earth before the atmosphere
@@ -142,62 +142,62 @@ const AllProjectList = () => (
       </div>
     </li>
     <li className={styles.item}>
-      <a href="http://skin.flu.me" target="_blank">
+      <a href="http://skin.flu.me" target="_blank" rel="noreferrer">
         <img src={flume} />
       </a>
       <div>
-        <h2><a href="http://skin.flu.me" target="_blank">Flume Soundboard for Skin</a></h2>
+        <h2><a href="http://skin.flu.me" target="_blank" rel="noreferrer">Flume Soundboard for Skin</a></h2>
         <p>
           For the release of Flume’s latest album Skin, I built&nbsp;
-          <a href="http://skin.flu.me" target="_blank">skin.flu.me</a>, an
+          <a href="http://skin.flu.me" target="_blank" rel="noreferrer">skin.flu.me</a>, an
           interactive soundboard, in collaboration with Seth Kranzler.
           Visitors recreate "Never Be Like You" by triggering samples from the
           track to accompany an instrumental loop of the chorus. We created a
           clean and responsive user experience which&nbsp;
-          <a href="https://twitter.com/flumemusic/status/740956765500510208" target="_blank">Flume himself also enjoyed</a>.
+          <a href="https://twitter.com/flumemusic/status/740956765500510208" target="_blank" rel="noreferrer">Flume himself also enjoyed</a>.
         </p>
       </div>
     </li>
     <li className={styles.item}>
-      <a href="http://104.236.254.218:8081/" target="_blank">
+      <a href="http://104.236.254.218:8081/" target="_blank" rel="noreferrer">
         <img src={dividend} />
       </a>
       <div>
         <h2>Dividend Plus, a Cryptocurrency</h2>
         <p>
-          In collaboration with <a href="http://vilmagold.com/artist/hannah-sawtell/" target="_blank">Hannah Sawtell</a>,
+          In collaboration with <a href="http://vilmagold.com/artist/hannah-sawtell/" target="_blank" rel="noreferrer">Hannah Sawtell</a>,
           Dividend Plus is a "people's currency" modelled on alternative cryptocurrencies like Bitcoin
           created for Art Sheffield 2016. The project also includes an interactive freestanding dual-screen CGI animation,
           in which Dividend coins tumble down, triggered every time a transaction takes place.
         </p>
         <p>
           Press:&nbsp;
-          <a href="https://frieze.com/article/art-sheffield-2016" target="_blank">Frieze</a>
+          <a href="https://frieze.com/article/art-sheffield-2016" target="_blank" rel="noreferrer">Frieze</a>
           <span className={styles.separator}>/</span>
           <a href="www.bbc.co.uk/news/av/entertainment-arts-36090316/art-sheffield-hannah-sawtell-at-site-gallery" target="blank">BBC</a>
           <span className={styles.separator}>/</span>
-          <a href="https://www.artmonthly.co.uk/magazine/site/issue/june-2016" target="_blank">Art Monthly</a>
+          <a href="https://www.artmonthly.co.uk/magazine/site/issue/june-2016" target="_blank" rel="noreferrer">Art Monthly</a>
         </p>
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://vimeo.com/154739661" target="_blank">
+      <a href="https://vimeo.com/154739661" target="_blank" rel="noreferrer">
         <img src={mansplain} />
       </a>
       <div>
-        <h2><a href="https://vimeo.com/154739661" target="_blank">Mansplain it to me</a></h2>
+        <h2><a href="https://vimeo.com/154739661" target="_blank" rel="noreferrer">Mansplain it to me</a></h2>
         <p>
           Mainsplain it to me is a web application that will answer a question in a condescending manner to you.
-          Currently not working at <a href="http://mansplainitto.me" target="_blank">mansplainitto.me</a>.
+          Currently not working at <a href="http://mansplainitto.me" target="_blank" rel="noreferrer">mansplainitto.me</a>.
         </p>
       </div>
     </li>
     <li className={styles.item}>
-      <a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank">
+      <a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank" rel="noreferrer">
         <img src={holdr} />
       </a>
       <div>
-        <h2><a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank">Holdr</a></h2>
+        <h2><a href="https://www.youtube.com/watch?v=l0u-swKYIxw" target="_blank" rel="noreferrer">Holdr</a></h2>
         <p>An app that tells you whether or not you are holding your phone.</p>
       </div>
     </li>

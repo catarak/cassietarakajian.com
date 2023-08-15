@@ -4,7 +4,7 @@ html {
 
 body {
   min-height: 100%;
-  background-color: black;
+  background-color: #222;
 }
 
 a {
@@ -12,7 +12,8 @@ a {
 }
 
 a:hover {
-  color: #F1C6A4;
+  /* color: #F1C6A4; */
+  color: #31D843;
 }
 
 @media (min-width: 769px) {

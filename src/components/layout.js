@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children }) => (
       className="container"
     >
       <Menu />
-      {children()}
+      {children}
     </div>
   </div>
 )

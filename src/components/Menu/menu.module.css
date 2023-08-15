@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
+  background-color: #222;
 }
 
 @media (min-width: 769px) {
@@ -56,7 +56,8 @@
 }
 
 .item a:hover, .logo a:hover {
-  color: #F1C6A4;
+  /* color: #F1C6A4; */
+  color: #31D843;
 }
 
 .separator {
