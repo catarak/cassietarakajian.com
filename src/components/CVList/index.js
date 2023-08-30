@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './cvlist.module.css'
+import * as styles from './cvlist.module.css'
 
 const CVList = () => (
   <ul className={styles.items}>

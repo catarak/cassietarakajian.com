@@ -1,6 +1,6 @@
 import React from 'React'
 import { Link }  from 'gatsby'
-import styles from './menu.module.css'
+import * as styles from './menu.module.css'
 
 const Menu = () => (
   <nav className={styles.nav}>
@@ -9,11 +9,11 @@ const Menu = () => (
     </h1>
     <ul className={styles.items}>
       <li className={styles.item}>
-        <Link to="/current-projects">Current</Link>
+        <Link to="/work">Work</Link>
       </li>
       <span className={styles.separator}>/</span>
       <li className={styles.item}>
-        <Link to="/past-projects">Past</Link>
+        <Link to="/projects">Projects</Link>
       </li>
       <span className={styles.separator}>/</span>
       <li className={styles.item}>

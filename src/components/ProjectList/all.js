@@ -1,4 +1,5 @@
 import React from 'react'
+import * as styles from './projectlist.module.css'
 import aiml from '../../assets/viz1.gif'
 import wikisonnet from '../../assets/wikisonnet_still.png'
 import miraweb from '../../assets/mira2.jpg'
@@ -10,27 +11,11 @@ import skatroom from '../../assets/skatroom.jpg'
 import holdr from '../../assets/holdr1.png'
 import corporate from '../../assets/corporate.jpg'
 import soylent from '../../assets/soylentForWomen.jpg'
-import styles from './projectlist.module.css'
 import gl from '../../assets/gl2.png'
 import lullabies from '../../assets/lullabiesforai.jpg'
 
 const AllProjectList = () => (
   <ul className={styles.items}>
-    <li className={styles.item}>
-      <a href="http://girlfriends.site" target="_blank" rel="noreferrer">
-        <img src={gl} />
-      </a>
-      <div>
-        <h2>
-          Cofounder, <a href="http://girlfriends.site" target="_blank" rel="noreferrer">Girlfriends Labs</a>
-        </h2>
-        <p>
-          Girlfriends Labs is a creative agency that specializes
-          in websites, apps, installations and emerging techniques.
-          We build tools to problem solve and create seamless experiences.
-        </p>
-      </div>
-    </li>
     <li className={styles.item}>
       <a href="https://medium.com/dbrs-innovation-labs/visualizing-neural-networks-in-virtual-space-7e3f62f7177" target="_blank" rel="noreferrer">
         <img src={aiml} />

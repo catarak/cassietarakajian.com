@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import portrait from '../assets/me.jpeg'
-import styles from './home.module.css'
+import * as styles from './home.module.css'
 
 const IndexPage = () => (
   <Layout>
@@ -19,10 +19,8 @@ const IndexPage = () => (
       </div>
       <img className={styles.mobilePortrait} src={portrait} />
       <div className={styles.info}>
-        <p>technologist, educator, artist</p>
+        <p>software developer, creative technologist, educator, artist</p>
         <p>
-          <a href="https://instagram.com/hellothisiscass" target="_blank" rel="noreferrer">Instagram</a>
-          <span style={{ margin: '0 10px' }}>/</span>
           <a href="https://twitter.com/hellothisiscass" target="_blank" rel="noreferrer">Twitter</a>
           <span style={{margin: '0 10px'}}>/</span>
           <a href="https://github.com/catarak" target="_blank" rel="noreferrer">Github</a>

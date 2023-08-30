@@ -4,10 +4,54 @@ import pcd from '../../assets/pcd.png'
 import miami from '../../assets/miami.jpg'
 import itpcamp from '../../assets/itpcamp.jpg'
 import ddc from '../../assets/ddc.jpg'
-import styles from './talkslist.module.css'
+import satellite from '../../assets/gh-satellite.jpg'
+import access from '../../assets/access.jpg'
+import cursed from '../../assets/cursed.png'
+import demo from '../../assets/demo.jpg'
+import * as styles from './talkslist.module.css'
 
 const TalksList = () => (
   <ul className={styles.talks}>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://www.youtube.com/live/U7i2cnzNdGw?t=1395&si=QQDjktlKyYLQY6KT" target="_blank" rel="noreferrer">NEW INC Y8 Demo Day</a>
+        </h2>
+        <h3>Spring 2022</h3>
+        <p>Artist Talk</p>
+      </div>
+      <img src={demo} />
+    </li>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://www.youtube.com/watch?v=OeErRHG2lRg&ab_channel=AlgorithmicArtAssembly" target="_blank" rel="noreferrer">Algorithmic Art Assembly</a>
+        </h2>
+        <h3>Spring 2022</h3>
+        <p>The Blessed, The Cursed, and The Blursed</p>
+      </div>
+      <img src={cursed} />
+    </li>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://vimeo.com/547849345" target="_blank" rel="noreferrer">STUDIO for Creative Inquiry, Carnegie Mellon</a>
+        </h2>
+        <h3>Spring 2021</h3>
+        <p>Open Source Software Toolkits for the Arts, p5.js Editor</p>
+      </div>
+      <img src={access} />
+    </li>
+    <li className={styles.talk}>
+      <div>
+        <h2>
+          <a href="https://youtu.be/sRLWIAPaiRI?si=bC0XPLwLvGJo0m8a" target="_blank" rel="noreferrer">GitHub Satellite</a>
+        </h2>
+        <h3>Spring 2020</h3>
+        <p>Creative Coding in p5.js</p>
+      </div>
+      <img src={satellite} />
+    </li>
     <li className={styles.talk}>
       <div>
         <h2>
