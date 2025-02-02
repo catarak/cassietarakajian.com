@@ -21,7 +21,7 @@ const IndexPage = () => (
       <div className={styles.info}>
         <p>software developer, creative technologist, educator, artist</p>
         <p>
-          <a href="https://twitter.com/hellothisiscass" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://bsky.app/profile/hellothisiscass.bsky.social" target="_blank" rel="noreferrer">Bluesky</a>
           <span style={{margin: '0 10px'}}>/</span>
           <a href="https://github.com/catarak" target="_blank" rel="noreferrer">Github</a>
           <span style={{margin: '0 10px'}}>/</span>
